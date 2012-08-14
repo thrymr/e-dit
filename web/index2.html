@@ -1,0 +1,148 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <style>
+            #outer{
+                width: 900px;
+                border: 1px solid #ccc;
+                margin: auto;
+                padding-top: 100px;
+                padding-bottom: 30px;
+                background-color: burlywood;
+                box-shadow: 0 0 2px 1px #000;
+                border-radius: 5px;
+            }
+            #inner{
+                width: 560px;
+                height: 2400px;
+                border: 0px solid #ccc;
+                margin: auto;
+                background-color: #fff;
+                box-shadow: inset 0 0 2px 2px #000;
+                padding: 20px;
+                border-radius: 5px;
+            }
+            #sidebar{
+                background-color: #fff;
+                box-shadow: 0 0 2px 1px #000;
+                height: 10px;
+                width: 110px;
+                float: left;
+                margin: 2px 0 0 15px;
+                border: 1px solid #ccc;
+                padding: 5px;
+                border-radius: 5px;
+            }
+            #menu{
+                background-color: #fff;
+                box-shadow: 0 0 2px 1px #000;
+                height: 210px;
+                width: 110px;
+                float: right;
+                margin: 2px 15px 0 0px;
+                border: 1px solid #ccc;
+                padding: 5px;
+                border-radius: 5px;
+                
+            }
+            .flag{
+                height: 10px;
+                width: 15px;
+                margin: 0 8px;
+                border-radius: 2px;
+                float: left;
+                border: 1px solid #aaa;
+            }
+            .eng{
+                background-image: url(img/englishflag.gif);
+            }
+            .fre{
+                background-image: url(img/frenchflag.gif);
+            }
+            .ger{
+                background-image: url(img/germanflag.gif);
+            }
+            #menu .headline{
+                text-align: center;
+                border-bottom: 1px dotted #ccc;
+                padding: 1px;
+            }
+            #menu .link{
+                text-align: center;
+                padding: 1px 3px;
+                font-size: 12px;
+            }
+            .articel{
+                background-color: rgba(221,221,221,.7);
+                padding: 10px;
+                margin: 10px 0;
+                border-radius: 5px;
+                border: 1px solid burlywood;
+            }
+
+            .articel .headline{
+                border-bottom: 1px dotted #ababab;
+                padding: 5px 0;
+                font-weight: bold;
+            }
+            .articel .teaser{
+                font-size: 12px;
+                padding: 5px;
+            }
+            a {
+                text-decoration: none;
+                outline:none;
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="outer">
+            <div id="sidebar">
+                <div class="flag eng"></div>
+                <div class="flag fre"></div>
+                <div class="flag ger"></div>
+            </div>
+            <div id="menu">
+                <div class="headline">
+                    Menu
+                </div>
+                <div class="link">
+                    Gedoens 1
+                </div>
+                <div class="link">
+                    Gedoens 2
+                </div>
+                <div class="link">
+                    Gedoens 3
+                </div>
+            </div>
+            <div id="inner">
+                <div class="articel">
+                    <div class="headline">
+                        <a href="5-melodies-of-denying-the-genocide.html" class="contentLinks">5 Melodies of Denying the Genocide</a>
+                    </div>
+                    <div class="teaser">
+                        <a href="5-melodies-of-denying-the-genocide.html" class="contentLinks">read more</a>
+                    </div>
+                </div>
+                <div class="articel">
+                    <div class="headline">
+                        <a href="" class="contentLinks">Can we escape the casuistic reality</a>
+                    </div>
+                    <div class="teaser">
+                        <a href="" class="contentLinks">read more</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
